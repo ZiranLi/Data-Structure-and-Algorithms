@@ -17,16 +17,18 @@ public class Main {
 
         heap.printHeap();
 
-        System.out.println(heap.peek());
+//        System.out.println(heap.peek());
+//
+//        heap.delete(5);
+//        heap.printHeap();
+//
+//        heap.delete(0);
+//        heap.printHeap();
+//
+//        System.out.println(heap.peek());
 
-        heap.delete(5);
+        heap.sort();
         heap.printHeap();
-
-        heap.delete(0);
-        heap.printHeap();
-
-        System.out.println(heap.peek());
-
 
     }
 }
